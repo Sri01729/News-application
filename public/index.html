@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Stories Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Top Stories Explorer</h1>
+  </header>
+
+  <!-- Content Section -->
+  <section class="content">
+    <!-- Search Section -->
+    <div class="search-section">
+      <label for="searchInput">Enter your search keyword:</label>
+      <input type="text" id="searchInput" placeholder="Sports, Politics, movies etc.,">
+      <button id="searchButton">Search</button>
+      <button id="refreshButton">Try again</button>
+    </div>
+
+    <!-- Display Top Stories as Grid -->
+    <div id="topStories" class="grid-container">
+      <!-- Top story results go here -->
+
+      <div id="messageContainer">
+        <p>Enter the keyword you're interested in and get the latest top stories related to your search. Stay informed
+          with the
+          Top Stories App!</p>
+        <img src="Top Storis Explorer.png">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Top Stories Explorer. All rights reserved to New York Times Developers API.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@feathersjs/feathers"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@feathersjs/rest-client"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feathers-client@2.4.0/dist/feathers.js"></script>
+  <script src="https://unpkg.com/@feathersjs/client@^5.0.11/dist/feathers.js"></script>
+
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: rgb(110, 110, 197);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  max-width: 800px;
+  margin: 10rem auto;
+  padding: 0 1rem;
+}
+
+.search-section {
+  margin-bottom: 1rem;
+}
+
+#topStories {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: rgb(110, 110, 197);
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#messageContainer P,
+.search-section label {
+  font-family: "trebuchet MS";
+  color: #222222;
+  font-size: 12pt;
+  text-align: justify;
+  line-height: 28px;
+  padding: 0px;
+  margin-top: 10px;
+  width: 700px;
+}
